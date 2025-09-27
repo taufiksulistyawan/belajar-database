@@ -1,5 +1,3 @@
----
-
 ## 🗄️ **1. MySQL**
 
 * **Fungsi**: MySQL adalah **database server**. Tempat menyimpan data dalam bentuk tabel (baris & kolom).
@@ -79,5 +77,3 @@ Contoh implementasi nyata:
 * **phpMyAdmin** = pintu & rak untuk mengatur isi lemari.
 * **Webmin** = dashboard untuk seluruh rumah/server.
 * **Docker** = kotak ajaib buat bawa banyak aplikasi tanpa bentrok.
-
----
