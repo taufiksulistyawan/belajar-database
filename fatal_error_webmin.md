@@ -64,8 +64,6 @@ Edit file:
 sudo nano /usr/share/webmin/webmin/os-eol-lib.pl
 ```
 
-Cari blok yang kamu tunjukkan tadi, lalu ubah jadi seperti ini (tambahkan validasi bulan):
-
 Kita bisa **patch langsung di blok yang kamu kirim** biar aman.
 
 ---
@@ -124,8 +122,3 @@ sudo systemctl restart webmin
 3. Coba buka lagi Webmin → menu **System Status** harusnya sudah jalan tanpa error.
 
 ---
-
-⚡ Jadi intinya: patch ini **memaksa bulan minimal = 1 (Januari)** kalau parsing gagal.
-Daripada crash, lebih aman fallback.
-
-👉 Mau saya bikinkan **patch otomatis (pakai `sed`)** biar kamu nggak perlu edit manual lagi?
